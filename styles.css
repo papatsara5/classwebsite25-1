@@ -1,5 +1,4 @@
 body {
-    background-color: firebrick;
     text-decoration: underline;
     color: rgb(255, 136, 0);
     font-family: Arial, Helvetica, sans-serif;
@@ -13,16 +12,21 @@ h1 {
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: auto;
 }
 h2 {
     color: rgb(255, 136, 0);
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    display: block;
 }
 h3 {
     color: rgb(255, 136, 0);
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    display: block;
 }
 #poster{
     margin: auto;
@@ -32,11 +36,13 @@ h3 {
 
 #Home{
     width: 28px;
+ 
 }
 
 #Contact
 {
     width: 25px;
+ 
 }
 #dino{
     margin: auto;
