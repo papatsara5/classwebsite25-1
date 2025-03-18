@@ -1,71 +1,81 @@
 :root {
-/* CSS HSL */
---chamoisee: hsla(33, 24%, 46%, 1);
---caf-noir: hsla(32, 54%, 19%, 1);
---drab-dark-brown: hsla(64, 61%, 13%, 1);
---bistre: hsla(33, 59%, 10%, 1);
---walnut-brown: hsla(37, 15%, 28%, 1);
+    /* CSS HSL */
+    --night: hsla(90, 8%, 5%, 1);
+    --pumpkin: hsla(23, 94%, 51%, 1);
+    --ash-gray: hsla(103, 4%, 64%, 1);
+    --black: hsla(0, 0%, 0%, 1);
+    --dim-gray: hsla(120, 1%, 38%, 1);
+    --nav-text-size: 1.5em;
 }
 
-body { /*
-    text-decoration: underline;
-    color: rgb(255, 136, 0);
+body {
+    /* background-color: #282828;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("image/BG_3D.avif");
+    background-image: url("images/tile.png");
     background-size: cover;
-    background-repeat: no-repeat;*/
- 
-
-}
-h1 {
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: auto;
-}
-h2 {
-    color: rgb(255, 136, 0);
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: auto;
-    display: block;
-}
-h3 {
-    color: rgb(255, 136, 0);
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: auto;
-    display: block;
-}
-#poster{
-    margin: auto;
-    display: block;
-    
+    background-repeat:no-repeat; */
+    margin: 0px;
 }
 
-#Home{
-    width: 28px;
- 
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: var(--night);
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-#Contact
-{
-    width: 25px;
- 
+#site-logo {
+    max-width: 120px;
 }
-#dino{
-    max-width: 1oopx;
-    margin: auto;
-    display: block;
+.main-navigation {
+    display: flex;
+    flex-direction: row;
 }
+.main-navigation a {
+    color: var(--ash-gray);
+    text-decoration: none;
+    font-size: var(--nav-text-size);
+    padding: 1em;
+}
+.user-nav {
+    display: flex;
+    flex-direction: row;
+}
+.user-nav a {
+    color: var(--ash-gray);
+    text-decoration: none;
+    font-size: var(--nav-text-size);
+    padding: 1em;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
 
-.main-header
-{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   background-color: var(--drab-dark-brown);
-}
-
+  #site-search {
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
+    padding: 1em;
+  }
+  #site-search input {
+    flex: 1;
+    padding: 0.5em;
+    border: 1px solid var(--ash-gray);
+    border-radius: 5px 0px 0px 5px;
+  }
+  #site-search button {
+    background-color: var(--pumpkin);
+    padding: 0.5em;
+    border: 1px solid var(--ash-gray);
+    border-radius: 0px 5px 5px 0px;
+  }

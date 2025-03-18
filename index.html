@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html lang="EN">
-<!-- Head is for metadata -->
-<head>
-    <title>My website</title>
-    <link rel="icon" href="image/science-colorful-line-illustration-design-vector-eps-10_822766-8635.avif">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<!-- body is for content-->
-<body>
-    <nav class="main-navigation">
-        <a href="index.html">
-            <img id="Home" src="image/home-solid.png" alt="home-solid">
-        </a>
-        <a href="contact.html">
-            <img id="Contact" src="image/phone-solid.png" alt="phone-solid">
-        </a>
-    </nav>
-    <h1 style="font-size: 60px;">Hello World</h1>
-    <img id="dino" src="image/dino.jpg" alt="a poster for a movie about dinosaurs">
-    <h2>ST Leonards TAFE</h2>
-    <iframe width="250" height="250" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.6484106750036!2d151.183016088855!3d-33.82138519999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12af1fe3b9b887%3A0x6fda02f3cc79cba1!2sTAFE%20NSW%20-%20St%20Leonards!5e0!3m2!1sen!2sau!4v1739833136088!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <h3>YouTube Video</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_q6mhM4_jO8?si=DAe9tNP6y8YTtiu2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <a href="https://google.com">Go to Google</a>
-    <a href="https://bing.com">
-        <img width="100" height="100" src="image/search.jpg" alt="Logo for search engine">   
-    </a>
-    <h4>Link to another page in the website (relative link)</h4>
-    <a href="contact.html">Go to contact page</a>
+<html lang="en">
+<!-- head is for metadata -->
 
+<head>
+  <title>Hello</title>
+  <link rel="icon" href="images/user-icon-on-transparent-background-free-png.webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- body is for content -->
+
+<body>
+  <header class="main-header">
+    <a href="/">
+      <img id="site-logo" src="images/logo.png" alt="jarowuuk logo">
+    </a>
+    <nav class="main-navigation">
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <form id="site-search" method="get" action="search.html">
+      <label class="visuallyhidden" for="search">Search</label>
+      <input type="search" id="search" name="keyword" placeholder="search" aria-label="search">
+      <button type="submit" name="submit">Search</button>
+    </form>
+    <nav class="user-nav">
+      <a href="#">Account</a>
+      <a href="#">Wishlist</a>
+      <a href="#">Cart</a>
+    </nav>
+  </header>
+  <main></main>
+  <footer></footer>
 </body>
-<!-- end of the document-->
+<!-- end of the document -->
+
 </html>
