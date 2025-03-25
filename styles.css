@@ -20,11 +20,13 @@ body {
 .main-header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
     background-color: var(--night);
     padding-left: 30px;
     padding-right: 30px;
+
 }
 
 #site-logo {
@@ -33,6 +35,7 @@ body {
 .main-navigation {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .main-navigation a {
     color: var(--ash-gray);
@@ -43,9 +46,10 @@ body {
 .user-nav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .user-nav a {
-    color: var(--ash-gray);
+    color: var(--pumpkin);
     text-decoration: none;
     font-size: var(--nav-text-size);
     padding: 1em;
@@ -79,3 +83,5 @@ body {
     border: 1px solid var(--ash-gray);
     border-radius: 0px 5px 5px 0px;
   }
+
+  
