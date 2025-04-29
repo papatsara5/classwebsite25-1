@@ -100,7 +100,7 @@ body {
     color: white;
   }
   .slide-content img {
-    max-height: 50vh;
+    height: 50vh;
     display: block;
   }
   .slide-content {
