@@ -14,7 +14,9 @@ body {
     background-image: url("images/tile.png");
     background-size: cover;
     background-repeat:no-repeat; */
+    font-family: "Open Sans", sans-serif;
     margin: 0px;
+    overflow-y: scroll;
 }
 
 .main-header {
@@ -26,7 +28,6 @@ body {
     background-color: var(--night);
     padding-left: 30px;
     padding-right: 30px;
-
 }
 
 #site-logo {
@@ -54,6 +55,9 @@ body {
     font-size: var(--nav-text-size);
     padding: 1em;
 }
+.user-nav a:hover {
+    color: var(--ash-gray);
+}
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -63,7 +67,7 @@ body {
     padding: 0;
     position: absolute;
     width: 1px;
-  }
+}
 
   #site-search {
     display: flex;
@@ -83,5 +87,24 @@ body {
     border: 1px solid var(--ash-gray);
     border-radius: 0px 5px 5px 0px;
   }
-
-  
+  .nav-button {
+    display: none;
+  }
+  .slide {
+    min-height: 50vh;
+    background-color: var(--pumpkin);
+    min-width: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 32px;
+    color: white;
+  }
+  .slide-content img {
+    max-height: 50vh;
+    display: block;
+  }
+  .slide-content {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+  }
