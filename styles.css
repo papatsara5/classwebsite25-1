@@ -1,20 +1,16 @@
 :root {
   /* CSS HSL */
   --night: hsla(90, 8%, 5%, 1);
-  --pumpkin: hsla(23, 94%, 51%, 1);
+  --pumpkin: rgb(247, 147, 84);
   --ash-gray: hsla(103, 4%, 64%, 1);
   --black: hsla(0, 0%, 0%, 1);
   --dim-gray: hsla(120, 1%, 38%, 1);
   --light-gray: hsla(120, 1%, 86%, 1);
   --nav-text-size: 1.5em;
+  --light-yellow: rgb(230, 238, 142);
 }
 
 body {
-  /* background-color: #282828;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("images/tile.png");
-    background-size: cover;
-    background-repeat:no-repeat; */
   font-family: "Open Sans", sans-serif;
   margin: 0px;
   overflow-y: scroll;
@@ -58,7 +54,7 @@ body {
 }
 
 .user-nav a {
-  color: var(--pumpkin);
+  color: var(--light-yellow);
   text-decoration: none;
   font-size: var(--nav-text-size);
   padding: 1em;
@@ -94,7 +90,7 @@ body {
 }
 
 #site-search button {
-  background-color: var(--pumpkin);
+  background-color: var(--light-yellow);
   padding: 0.5em;
   border: 1px solid var(--ash-gray);
   border-radius: 0px 5px 5px 0px;
@@ -106,7 +102,7 @@ body {
 
 .slide {
   min-height: 50vh;
-  background-color: var(--pumpkin);
+  background-color: var(--light-yellow);
   min-width: 100%;
   display: grid;
   place-items: center;
@@ -268,7 +264,7 @@ body {
   display: grid;
   place-items: center;
   background-color: var(--light-gray);
-  background-image: url("images/banners/pexels-ingo-609771.jpg");
+  background-image: url("image/footer_shoes.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
