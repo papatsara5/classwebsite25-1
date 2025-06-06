@@ -224,6 +224,7 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 1.5em;
+  background-color: var(--light-gray);
 }
 
 .column-4 {
