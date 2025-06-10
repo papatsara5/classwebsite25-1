@@ -1,33 +1,38 @@
-
-@media screen and (max-width: 480px ) {
+@media screen and (max-width: 480px) {
     #site-search {
         /* min-width: 90vw; */
         min-width: none;
         flex: 1;
         padding: 0px;
         align-self: center;
-        
+
     }
+
     #site-logo {
         width: 60px;
-        
+
     }
+
     .main-header {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .main-navigation a {
         min-width: 100%;
     }
+
     .main-navigation {
         max-height: 0px;
         overflow: hidden;
         order: 5;
         transition: max-height 0.5s;
     }
+
     .main-navigation.open {
         max-height: 50vh;
     }
+
     .nav-button {
         display: block;
         align-self: flex-start;
@@ -38,8 +43,12 @@
         color: var(--ash-gray);
         background-color: transparent;
         border-color: transparent;
-        
+
     }
-    
-    
+
+    .card-horizontal .card-image {
+        max-width: 100%;
+    }
+
+
 }

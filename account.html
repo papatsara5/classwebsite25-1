@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head is for metadata -->
+
+<head>
+    <title>About TopToe</title>
+    <link rel="icon" href="images/user-icon-on-transparent-background-free-png.webp">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+<!-- body is for content -->
+
+<body>
+    <header class="main-header">
+        <a href="/">
+            <img id="site-logo" src="image/TipToe_Soles_Logo.png" alt="TipToe_Soles_Logo logo">
+        </a>
+        <button class="nav-button">
+            <i class="fa-solid fa-bars"></i>
+            <span class="visuallyhidden">Menu</span>
+        </button>
+        <nav class="main-navigation">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="products.html">Products</a>
+                <nav class="dropdown-menu">
+                    <a href="men.html">Mens</a>
+                    <a href="women.html">Women</a>
+                    <a href="kids.html">Kids</a>
+                </nav>
+            </div>
+            <a href="About.html">About Us</a>
+        </nav>
+        <form id="site-search" method="get" action="search.html">
+            <label class="visuallyhidden" for="search">Search</label>
+            <input type="search" id="search" name="keyword" placeholder="search" aria-label="search">
+            <button type="submit" name="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="visuallyhidden">Search</span>
+            </button>
+        </form>
+        <nav class="user-nav">
+            <a href="Account.html">
+                <i class="fa-solid fa-user"></i>
+                <span class="visuallyhidden">Account</span>
+            </a>
+            <a href="Wishlist.html">
+                <i class="fa-solid fa-heart"></i>
+                <span class="visuallyhidden">Wishlist</span>
+            </a>
+            <a href="Basket.html">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <span class="visuallyhidden">Basket</span>
+            </a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <div class="card column-12">
+            <img class="card-image" src="image/Account.jpg">
+            <div class="card-content">
+            </div>
+        </div>
+        <div class="second-banner column-12">
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <nav class="footer-nav">
+                <h3>Policies</h3>
+                <a href="deliveries.html">Deliveries</a>
+                <a href="returns.html">Returns</a>
+                <a href="exchange.html">Exchange</a>
+            </nav>
+            <nav class="footer-nav">
+                <h3>Services</h3>
+                <a href="Find a store.html">Find a store</a>
+                <a href="size guide.html">Size Guide</a>
+                <a href="size guide.html">Giftcards</a>
+            </nav>
+            <nav class="footer-nav">
+                <h3>Tip Toe Soles</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <nav class="social-nav">
+                <h3>Social</h3>
+                <a href="https://facebook.com">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="https://instagram.com">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="https://youtube.com">
+                    <i class="fa-brands fa-square-youtube"></i>
+                </a>
+            </nav>
+        </div>
+        <p class="copyright">&copy; Tip Toe Soles 2025. All rights reserved.</p>
+    </footer>
+
+</body>
+<!-- end of the document -->
+
+</html>
